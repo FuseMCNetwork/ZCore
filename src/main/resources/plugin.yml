@@ -1,0 +1,18 @@
+name: ZCore
+version: 1.0
+
+main: net.fusemc.zcore.ZCore
+depend: [DKLib, JLib]
+softdepend: [ZBukkitPlugin]
+
+author: FuseMC Dev Team
+description: The Core-Plugin/Lib of all FuseMC Plugins
+
+commands:
+  start:
+    description: quick starts the gamelobby
+    permission: ZCore.start
+
+permissions:
+  ZCore.start:
+    default: true
